@@ -6,7 +6,10 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <h1>Next.js with Prisma Example</h1>
+        <h1>
+          <strong className={styles.highlighted}>Next.js</strong> with{" "}
+          <strong className={styles.highlighted}>Prisma</strong> Example
+        </h1>
         <p>
           This is a simple example of how to use <strong>Next.js</strong> with{" "}
           <strong>Prisma</strong> to interact with a database.
