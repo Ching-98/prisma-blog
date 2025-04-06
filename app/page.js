@@ -8,8 +8,8 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Next.js with Prisma Example</h1>
         <p>
-          This is a simple example of how to use Next.js with Prisma to interact
-          with a database.
+          This is a simple example of how to use <strong>Next.js</strong> with{" "}
+          <strong>Prisma</strong> to interact with a database.
         </p>
 
         <PostList />
